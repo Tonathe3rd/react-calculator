@@ -1,0 +1,32 @@
+
+.calcBtn{
+  background: #f8f8f4;
+  border: 1px solid #f8f8f4;
+  height: 3rem;
+  padding: 5px;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px #c1c1c1,
+      -5px -5px 10px #f5f3f3;
+  cursor: pointer;
+  color: #947a7c;
+  font-size: 1.6rem;
+  margin: 0.3rem;
+}
+
+.calcBtn:hover{
+  color: #ffff;
+  background: rgb(13, 182, 13);
+  animation: color-me-in 4s; 
+}
+@keyframes color-me-in {
+  0% {
+    background: orange;
+  } 
+  /* Adding a step in the middle */
+  50% {
+    background: black;
+  }
+  100% {
+    background: blue;
+  }
+}
